@@ -1,0 +1,33 @@
+@media (max-width: 510px){
+    #header{
+        font-size: 34px;
+    }
+    .timer-box{
+        max-width: 70%;
+        height: 20rem;
+    }
+    .timer-box h1{
+        font-size: 22px;
+    }
+    #description{
+        font-size: 23px;
+    }
+    #timer{
+        font-size: 3rem;
+    }
+    #hours,#minutes, #seconds{
+        font-size: 2.7rem;
+    }
+    #break-notifasion{
+        font-size: 23px;
+    }
+    #break-notifasion.show-break,#break-notifasion.show-break-end{
+        font-size: 23px;
+    }
+    #break-notifasion.show-top{
+        font-size: 20px;
+    }
+    #breaks,#breaks-after{
+        font-size: 23px;
+    }
+}

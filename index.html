@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Images/logo_title.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Pomodoro Timer</title>
+</head>
+<body> <audio src="Audio/end-of-break.wav"></audio>
+    <header id="header">
+        <a href="index.html">Pomodoro Timer</a>
+    </header>
+    <section class="timer-section">
+        <div id="break-notifasion">
+        </div>
+        <div class="timer-box">
+            <h1><span id="no-time">No time left..</span> set the timer and start!</h1>
+            <div id="description">
+                <span>Hours : Minutes : Seconds</span>
+            </div>
+            <div id="timer">
+                <input type="text"  maxlength="2" id="hours"><span id="two-pont">:</span><input type="text"  maxlength="2" id="minutes"><span id="two-pont">:</span><input type="text" id="seconds" maxlength="2"></span>
+            </div>
+            
+            <div id="breaks">You will have <span id="breaks-num-total">0</span> breaks!</div>
+            <div id="breaks-after">Only <span id="breaks-num-left">0</span> breaks left!</div>
+
+            <div id="buttons">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </section>
+</body>
+</html>
